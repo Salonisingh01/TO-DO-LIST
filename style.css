@@ -1,0 +1,37 @@
+body{
+background-image: url(bg3.jpg);
+background-size:cover;
+
+}
+.main{
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 12%;
+    display: flex;
+    justify-content: center;
+     margin-top: 120px;
+    margin-left: 450px;
+    background: transparent;
+    backdrop-filter:blur(8px);
+}
+h1{
+    font-family:cursive;
+    font-size: 45px;
+}
+li{
+    font-size: 20px;
+    margin: 15px 5px 10px 5px;
+}
+
+li:hover{
+    background-color: green;
+   
+}
+.value{
+    background: transparent;
+    border: none;
+    outline: none;
+    font-family: monospace;
+    font-size:20px;
+}
